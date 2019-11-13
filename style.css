@@ -2,23 +2,39 @@
     display: grid;
     grid-template-rows: 1fr 8fr 1fr;
     border: 1px solid black;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 
 }
 
 .grid-header {
-background-color: rgb(128, 128, 121);
+background-color: rgb(173, 173, 167);
 text-align: right;
-margin: 1rem;
+padding: 1rem;
 }
 
 .grid-main {
     background-color: gray;
+    text-align: center;
+    background-image: url(./Pictures/P2015255.JPG);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    opacity: 0.8;
+    
 
 }
+
+.grid-main-child1 {
+ 
+    
+}
+
+
+
 
 .grid-footer {
     background-color: cadetblue;
     text-align: center;
-    margin: 1rem;
+    padding: 1rem;
 
 }
