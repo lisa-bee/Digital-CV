@@ -1,0 +1,24 @@
+.grid-container {
+    display: grid;
+    grid-template-rows: 1fr 8fr 1fr;
+    border: 1px solid black;
+
+}
+
+.grid-header {
+background-color: rgb(128, 128, 121);
+text-align: right;
+margin: 1rem;
+}
+
+.grid-main {
+    background-color: gray;
+
+}
+
+.grid-footer {
+    background-color: cadetblue;
+    text-align: center;
+    margin: 1rem;
+
+}
