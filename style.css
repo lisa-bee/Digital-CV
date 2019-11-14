@@ -2,39 +2,65 @@
     display: grid;
     grid-template-rows: 1fr 8fr 1fr;
     border: 1px solid black;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-
 }
 
 .grid-header {
-background-color: rgb(173, 173, 167);
-text-align: right;
-padding: 1rem;
+    background-color: rgba(125, 125, 155, 0.658);
+    text-align: right;
+    padding: 1rem;
+    
 }
 
 .grid-main {
     background-color: gray;
     text-align: center;
-    background-image: url(./Pictures/P2015255.JPG);
+    background-image: url(./Pictures/jeremy-bishop-QHZn3-0bbEM-unsplash.jpg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
     opacity: 0.8;
+    display: grid;
     
 
 }
+
+/* Style for main objects*/
 
 .grid-main-child1 {
- 
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
     
 }
 
+.grid-main-child2 {
+    display: flex;
+    justify-content: center;
+}
 
+/*Style for circle divs*/
 
+.circles {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+    color: white;
+    height: 6rem;
+    width: 6rem;
+    border-radius: 50%;
+    margin: 2rem;
+    
+}
 
 .grid-footer {
-    background-color: cadetblue;
+    background-color: rgba(71, 68, 65, 0.658);
     text-align: center;
     padding: 1rem;
-
 }
+
+.icons-footer {
+    height: 2rem;
+    padding: 1rem;
+}
+
