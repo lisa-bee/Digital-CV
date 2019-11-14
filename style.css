@@ -47,13 +47,27 @@
     justify-content: center;
     background-color: black;
     color: white;
+    border: none;
     height: 6rem;
     width: 6rem;
     border-radius: 50%;
     margin: 1.5rem;
     padding: 5px;
+    font-size: 14px;
+}
+
+.icons-button {
+    height: 2rem;
+    display: none;
+}
+
+.icons-button:hover {
     
-    
+}
+
+.circles:hover {
+    background-color: whitesmoke;
+    color: black;
 }
 
 .grid-footer {
