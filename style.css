@@ -75,10 +75,24 @@ body {
 .grid-aboutme {
     background-color: whitesmoke;
     height: 100vh;
-    opacity: 0.9;
+    opacity: 0.8;
     font-size: large;
     display: flex;
     justify-content: center;
+}
+
+.aboutme-child1 {
+    border: 1px solid black;
+    background-color: black;
+    color: white;
+    line-height: 1.8; 
+    padding: 2rem;
+    margin: 2rem;
+     
+}
+
+span {
+    font-style: italic;
 }
 
 /*WORK PART*/
@@ -86,11 +100,10 @@ body {
 .grid-work {
     background-color: black;
     height: 100vh;
-    opacity: 0.9;
+    opacity: 0.8;
     display: flex;
     justify-content: center;
     align-items: center;
-
 }
 
 .work-child1 {
@@ -101,10 +114,7 @@ body {
     align-items: center;
     flex-direction: column;
     padding: 10rem;
-
 }
-
-/*GITHUB ICON*/
 
 .github-icon {
     height: 5rem;
@@ -116,20 +126,37 @@ body {
 
 .grid-education {
     background-color: whitesmoke;
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
     height: 100vh;
-    opacity: 0.9;
+    opacity: 0.8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+}
+
+.education-child1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: black;
+    border-radius: 50%;
+    color: whitesmoke;
+    height: 15rem;
+    width: 15rem;
+    margin: 1rem;
+    line-height: 0;
+}
+
+.education-child1 div {
+    display: none;
 }
 
 /*OTHER PART*/
 
 .grid-other {
     background-color: black;
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
     height: 100vh;
     opacity: 0.9;
 }
@@ -146,7 +173,7 @@ body {
 /*FOOTER*/
 
 .grid-footer {
-    background-color: rgba(71, 68, 65, 0.658);
+    background-color: whitesmoke;
     text-align: center;
     padding: 1rem;
 }

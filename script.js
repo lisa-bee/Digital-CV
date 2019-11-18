@@ -35,3 +35,21 @@ function scrollToElement(event) {
     const div = document.querySelector('div#' + idToSearchFor)
     div.scrollIntoView({ behavior: 'smooth' })
 }
+
+
+/**
+ * 
+ */
+function showHiddenContent() {
+    document.querySelector('.education-child1 div').style.display = "unset"
+    document.querySelector('.education-child1 h2').style.display = "none"
+    document.querySelector('.education-child1').style.background = "grey"
+    document.querySelector('.education-child1').style.color = "black"
+}
+
+function hideHiddenContent() {
+    document.querySelector('.education-child1 h2').style.display = "unset"
+    document.querySelector('.education-child1 div').style.display = "none"
+    document.querySelector('.education-child1').style.background = "black"
+    document.querySelector('.education-child1').style.color = "white"
+}
