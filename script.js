@@ -53,7 +53,7 @@ function showHiddenContent() {
  const h2 = document.querySelectorAll('.education-child1 h2')
  
     for (const item of circle) {
-        item.style.display = 'unset'   
+        item.style.display ='unset'   
     }
 
     for (const item of h2) {
@@ -61,7 +61,7 @@ function showHiddenContent() {
     }
 
     for (const item of div) {
-        item.style.background ="grey"
+        item.style.background ='lightgrey'
     }
   
 
@@ -78,7 +78,7 @@ function hideHiddenContent() {
  
 
     for (const item of circle) {
-        item.style.display = 'none'
+        item.style.display ='none'
     }
 
     for (const item of h2) {
@@ -87,7 +87,7 @@ function hideHiddenContent() {
     }
 
     for (const item of div) {
-        item.style.color = 'black'
+        item.style.color ='black'
         item.style.background ='black'
     }
 

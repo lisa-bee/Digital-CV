@@ -107,7 +107,6 @@ span {
 }
 
 .work-child1 {
-    border: 1px solid black;
     background-color: whitesmoke;
     display: flex;
     justify-content: center;
@@ -149,6 +148,12 @@ span {
     line-height: 0;
 }
 
+.education-child1 p {
+    font-size: large;
+    line-height: 1;
+    text-align: center;
+}
+
 .education-child1 div {
     display: none;
 }
@@ -158,22 +163,30 @@ span {
 .grid-other {
     background-color: black;
     height: 100vh;
-    opacity: 0.9;
+    opacity: 0.8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-.text-divs {
-    border: 1px solid black;
+.other-child1 {
+    border: 13px solid gray;
     background-color: whitesmoke;
-    margin: 5rem;
-    line-height: 1.8; 
-    
+    text-align: center;
+    flex-direction: column;
+    padding: 2rem;   
+
 }
 
+.other-child1 ul {
+    margin: 0;
+    padding: 0;
+}
 
 /*FOOTER*/
 
 .grid-footer {
-    background-color: whitesmoke;
+    background-color: rgb(207, 204, 204);
     text-align: center;
     padding: 1rem;
 }
