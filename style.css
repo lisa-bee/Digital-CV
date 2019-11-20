@@ -1,9 +1,13 @@
 * {
     font-family: 'Quicksand', sans-serif;
     list-style-type: none;
+    
 }
 body {
     margin: 0;
+    width: 100%;
+    
+
 }
 
 .grid-container {
@@ -18,7 +22,6 @@ body {
 } */
 
 .grid-main {
-    text-align: center;
     background-image: url(./Pictures/jeremy-bishop-QHZn3-0bbEM-unsplash.jpg);
     background-size: cover;
     background-position: center;
@@ -26,6 +29,7 @@ body {
     opacity: 0.8;
     display: grid;
     height: 100vh;
+    min-height: 70rem;
 }
 
 /* Style for main objects*/
@@ -75,6 +79,7 @@ body {
 .grid-aboutme {
     background-color: whitesmoke;
     height: 100vh;
+    min-height: 70rem;
     opacity: 0.8;
     font-size: large;
     display: flex;
@@ -100,6 +105,7 @@ span {
 .grid-work {
     background-color: black;
     height: 100vh;
+    min-height: 70rem;
     opacity: 0.8;
     display: flex;
     justify-content: center;
@@ -126,6 +132,7 @@ span {
 .grid-education {
     background-color: whitesmoke;
     height: 100vh;
+    min-height: 70rem;
     opacity: 0.8;
     display: flex;
     justify-content: center;
@@ -163,6 +170,7 @@ span {
 .grid-other {
     background-color: black;
     height: 100vh;
+    min-height: 70rem;
     opacity: 0.8;
     display: flex;
     justify-content: center;
@@ -186,6 +194,8 @@ span {
 /*FOOTER*/
 
 .grid-footer {
+  display: flex;
+  justify-content: center;
     background-color: rgb(207, 204, 204);
     text-align: center;
     padding: 1rem;

@@ -1,3 +1,17 @@
 /*FOR MOBILE SIZE*/
 
-@media 
+@media (max-width: 400px) {
+
+.grid-main-child2 {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+}
+
+
+@media (max-width: 992px) {
+
+}
