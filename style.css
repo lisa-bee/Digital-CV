@@ -135,7 +135,6 @@ span {
     min-height: 70rem;
     opacity: 0.8;
     display: flex;
-    justify-content: center;
     align-items: center;
     display: grid;
     grid-template-columns: auto auto auto auto auto;

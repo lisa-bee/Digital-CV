@@ -1,11 +1,17 @@
 /*FOR MOBILE SIZE*/
 
-@media (max-width: 400px) {
+@media (max-width: 415px) {
 
 .grid-main-child2 {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+}
+
+.grid-education {
+    grid-template: none;
+    justify-content: center;
+    height: 100%;
 }
 
 
