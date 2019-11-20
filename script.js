@@ -3,7 +3,7 @@ window.addEventListener('load', loadPage)
 function loadPage() {
     writeTitle()
     addSmoothScrollListeners()
-    showHiddenContent()
+    addExperienceHoverListeners()
     hideHiddenContent()
 }
 
@@ -44,56 +44,45 @@ function scrollToElement(event) {
 /* function eventOnHoverOverCircles() {
 const circle = document.querySelectorAll('.education-child1')
 */
+function addExperienceHoverListeners() {
 
+    const circles = document.querySelectorAll('#experience > *')
 
-function showHiddenContent() {
-
- const circle = document.querySelectorAll('.education-child1 div')
- const div = document.querySelectorAll('.education-child1')
- const h2 = document.querySelectorAll('.education-child1 h2')
- 
-    for (const item of circle) {
-        item.style.display ='unset'   
+    for (const circle of circles) {
+        circle.addEventListener('mouseenter', showHiddenContent)
+        circle.addEventListener('mouseleave', hideHiddenContent)
     }
-
-    for (const item of h2) {
-        item.style.display ='none'
-    }
-
-    for (const item of div) {
-        item.style.background ='lightgrey'
-    }
-  
-
-    // document.querySelector('.education-child1 div').style.display = "unset"//the loop we did now
-    // document.querySelector('.education-child1 h2').style.display = "none"//saperate for loop 
-    // document.querySelector('.education-child1').style.background = "grey" // this and the one below same for loop
-    // document.querySelector('.education-child1').style.color = "black"
 }
 
-function hideHiddenContent() {
-    const circle = document.querySelectorAll('.education-child1 div')
-    const div = document.querySelectorAll('.education-child1')
-    const h2 = document.querySelectorAll('.education-child1 h2')
+/**
+ * 
+ * @param {MouseEvent} event 
+ */
+function showHiddenContent(event) {
+
+    const circle = event.target
+    const div = circle.querySelector('div')
+    const h2List = circle.querySelectorAll('h2')
  
-
-    for (const item of circle) {
-        item.style.display ='none'
+    for (const h2 of h2List) {
+        h2.style.display ='none'
     }
+    div.style.display = 'block'
+    circle.style.background ='lightgrey'
+    circle.style.color = 'black'
+}
 
-    for (const item of h2) {
-        item.style.display ='unset'
-        item.style.color ='white'
+function hideHiddenContent(event) {
+    
+    const circle = event.target 
+    const div = circle.querySelector('div')
+    const h2List = circle.querySelectorAll('h2')
+
+    for (const h2 of h2List) {
+        h2.style.display = 'block'
+        h2.style.color = 'white'
     }
-
-    for (const item of div) {
-        item.style.color ='black'
-        item.style.background ='black'
-    }
-
-
-    // document.querySelector('.education-child1 h2').style.display = "unset"//new loop
-    // document.querySelector('.education-child1 div').style.display = "none"//new loop
-    // document.querySelector('.education-child1').style.background = "black"//this and one below same for loop
-    // document.querySelector('.education-child1').style.color = "white"
+    div.style.display = 'none'
+    circle.style.background = 'black'
+    
 }

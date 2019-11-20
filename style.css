@@ -1,25 +1,26 @@
 * {
     font-family: 'Quicksand', sans-serif;
-    list-style-type: none;
-    
+    list-style-type: none;  
 }
+
+/*BODY*/
+
 body {
     margin: 0;
     width: 100%;
-    
-
 }
+
+span {
+    font-style: italic;
+}
+
+/* GRID CONTAINER*/
 
 .grid-container {
     display: grid;
 }
 
-/* .grid-header {
-    background-color: rgba(125, 125, 155, 0.658);
-    text-align: right;
-    padding: 1rem;
-    
-} */
+/* FRONT/FIRST PAGE*/
 
 .grid-main {
     background-image: url(./Pictures/jeremy-bishop-QHZn3-0bbEM-unsplash.jpg);
@@ -32,7 +33,7 @@ body {
     min-height: 70rem;
 }
 
-/* Style for main objects*/
+/* Style for first page objects*/
 
 .grid-main-child1 {
     display: flex;
@@ -46,7 +47,7 @@ body {
     justify-content: center;
 }
 
-/*Style for circle divs*/
+/*Style for circled divs*/
 
 .circles {
     display: flex;
@@ -68,7 +69,6 @@ body {
     display: none;
 }
 
-
 .circles:hover {
     background-color: rgba(245, 245, 245, 0.521);
     color: black;
@@ -84,6 +84,7 @@ body {
     font-size: large;
     display: flex;
     justify-content: center;
+    align-items: center;
 }
 
 .aboutme-child1 {
@@ -96,9 +97,6 @@ body {
      
 }
 
-span {
-    font-style: italic;
-}
 
 /*WORK PART*/
 
