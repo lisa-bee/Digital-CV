@@ -46,7 +46,7 @@ const circle = document.querySelectorAll('.education-child1')
 */
 function addExperienceHoverListeners() {
 
-    const circles = document.querySelectorAll('#experience > *')
+    const circles = document.querySelectorAll('#education > *')
 
     for (const circle of circles) {
         circle.addEventListener('mouseenter', showHiddenContent)

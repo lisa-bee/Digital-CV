@@ -100,7 +100,7 @@ span {
 
 /*WORK PART*/
 
-.grid-work {
+.grid-frontend {
     background-color: black;
     height: 100vh;
     min-height: 70rem;
@@ -110,7 +110,7 @@ span {
     align-items: center;
 }
 
-.work-child1 {
+.frontend-child1 {
     background-color: whitesmoke;
     display: flex;
     justify-content: center;
@@ -127,7 +127,7 @@ span {
 
 /*EDUCATION PART*/
 
-.grid-education {
+.grid-experience {
     background-color: whitesmoke;
     height: 100vh;
     min-height: 70rem;
@@ -138,7 +138,7 @@ span {
     grid-template-columns: auto auto auto auto auto;
 }
 
-.education-child1 {
+.experience-child1 {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -152,13 +152,13 @@ span {
     line-height: 0;
 }
 
-.education-child1 p {
+.experience-child1 p {
     font-size: large;
     line-height: 1;
     text-align: center;
 }
 
-.education-child1 div {
+.experience-child1 div {
     display: none;
 }
 
