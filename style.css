@@ -29,8 +29,7 @@ span {
     background-repeat: no-repeat;
     opacity: 0.8;
     display: grid;
-    height: 100vh;
-    min-height: 70rem;
+    min-height: 60rem;
 }
 
 /* Style for first page objects*/
@@ -77,8 +76,7 @@ span {
 
 .grid-aboutme {
     background-color: whitesmoke;
-    height: 100vh;
-    min-height: 70rem;
+    min-height: 55rem;
     opacity: 0.8;
     font-size: large;
     display: flex;
@@ -95,12 +93,11 @@ span {
     margin: 2rem;
 }
 
-/*WORK PART*/
+/*FRONTEND PART*/
 
 .grid-frontend {
     background-color: black;
-    height: 100vh;
-    min-height: 70rem;
+    min-height: 55rem;
     opacity: 0.8;
     display: flex;
     justify-content: center;
@@ -120,12 +117,11 @@ span {
     height: 5rem;
 }
 
-/*EDUCATION PART*/
+/*EXPERIENCE PART*/
 
 .grid-experience {
     background-color: whitesmoke;
-    height: 100vh;
-    min-height: 70rem;
+    min-height: 55rem;
     opacity: 0.8;
     display: flex;
     align-items: center;
@@ -161,8 +157,7 @@ span {
 
 .grid-other {
     background-color: black;
-    height: 100vh;
-    min-height: 70rem;
+    min-height: 50rem;
     opacity: 0.8;
     display: flex;
     justify-content: center;

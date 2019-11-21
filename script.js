@@ -4,13 +4,16 @@ function loadPage() {
     writeTitle()
     addSmoothScrollListeners()
     addExperienceHoverListeners()
-    hideHiddenContent()
 }
 
 let index = 0;
 const text = 'Hello, I´m Lisa';
 const speed = 250;
 
+/**
+ * This function writes out the title 
+ * "Hello I'm Lisa" when window load.
+ */
 function writeTitle() {
     if (index < text.length) {
         document.getElementById('title').innerHTML += text.charAt(index);
@@ -18,7 +21,10 @@ function writeTitle() {
         setTimeout(writeTitle, speed);
     }
 }
-
+/**
+ * This function selects all links in the .grid-main-child2 div
+ * to trigger the scroll function "scrollToElement" on click.
+ */
 function addSmoothScrollListeners() {
     const buttons = document.querySelectorAll('.grid-main-child2 a')
 
@@ -40,7 +46,8 @@ function scrollToElement(event) {
 
 
 /**
- * 
+ * This function selects all children of the #experience div
+ * to apply for 'mouseenter' and 'mouseleave'.
  */
 function addExperienceHoverListeners() {
 
