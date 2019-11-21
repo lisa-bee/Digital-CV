@@ -1,12 +1,32 @@
 # Laboration 2
 -Digitalt CV
 
-I denna laboration var uppgiften att skapa ett digitalt, interaktivt CV. Jag har löst uppgiften genom en sida med en interaktiv framsida med en hälsningsfras och 4 olika kategorier som med 'click' scrollar till respektiva element längre ner på sidan; "About me", "FrontEnd", "Experience" och "Other". 
+I denna laboration var uppgiften att skapa ett digitalt, interaktivt CV. 
 
-"Experience" delen av sidan är också interaktiv då man hovrar över de olika divarna med mina jobb-erfarenheter ändras egenskaperna för divarna och jobbtitel samt datum visas. 
+Min sida jag skapat har en interaktiv förstasida bestående av en hälsningsfras som 'onload' triggar en funktion som skriver ut frasen (JS) och fyra olika kategorier i var sin div. Vid :hover (css) ändras divarnas egenskaper.
+
+Med 'click' (JS) på varje div triggas en smooth scroll funktion (JS) som scrollar dig ner till respektive kategoris element, längre ner på sidan. Kategorierna är följande: "About me", "FrontEnd", "Experience" och "Other".
+
+## "About me" 
+-listar 10 rader av fakta om mig.
+
+## "FrontEnd" 
+-visar att jag håller på med just frontend och länkar även till min GitHub. Jag valde att länka till hela min GitHub profil istället för att länka till specifika repon. Detta kan vara något att ändra i framtiden om man känner att man har lite mer proffsiga repon att visa upp i CV:t.
+
+## "Experience" 
+-är också interaktiv del av min sida. Då man hovrar över de olika divarna med mina jobb-erfarenheter triggas ett 'mouseEvent' (JS) och ändrar egenskaperna för divarna. Diven eller "cirkeln" ändrar bakgrundsfärg och textfärg samt att jobbtitel och datum visas istället för namnet på företaget. 
+
+## "Other"
+-listar mina utbildningar, diverse cert och spåkfärdigheter.
+
+Längst ner på sidan finns en footer där länk till min mail, instagram och linkedIn finns. 
 
 
 
-Länk till GitHub repo: https://github.com/lisa-bee/Digital-CV
+##### Länk till GitHub repo: https://github.com/lisa-bee/Digital-CV
 
-Länk till GitHub demo (pages): https://lisa-bee.github.io/Digital-CV/
+##### Länk till GitHub demo (pages): https://lisa-bee.github.io/Digital-CV/
+
+
+
+Av: Lisa Bengtsson
