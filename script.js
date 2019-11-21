@@ -12,7 +12,7 @@ const speed = 250;
 
 /**
  * This function writes out the title 
- * "Hello I'm Lisa" when window load.
+ * "Hello I'm Lisa" on window load.
  */
 function writeTitle() {
     if (index < text.length) {
@@ -34,7 +34,8 @@ function addSmoothScrollListeners() {
 }
 
 /**
- * When the links with #id's are clicked it will scroll to the related element.
+ * When the links with #id:s are clicked, scroll to
+ * the related element with same #id will start.
  * @param {MouseEvent} event 
  */
 function scrollToElement(event) {
@@ -47,7 +48,7 @@ function scrollToElement(event) {
 
 /**
  * This function selects all children of the #experience div
- * to apply for 'mouseenter' and 'mouseleave'.
+ * and makes them apply to 'mouseenter' and 'mouseleave'.
  */
 function addExperienceHoverListeners() {
 
