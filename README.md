@@ -1,5 +1,5 @@
 # Laboration 2
--Digital CV
+-Digitalt CV
 
 I denna laboration var uppgiften att skapa ett digitalt, interaktivt CV. Jag har löst uppgiften med en...
 
