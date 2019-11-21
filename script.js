@@ -40,13 +40,9 @@ function scrollToElement(event) {
 
 
 
-
-/* function eventOnHoverOverCircles() {
-const circle = document.querySelectorAll('.education-child1')
-*/
 function addExperienceHoverListeners() {
 
-    const circles = document.querySelectorAll('#education > *')
+    const circles = document.querySelectorAll('#experience > *')
 
     for (const circle of circles) {
         circle.addEventListener('mouseenter', showHiddenContent)
