@@ -28,7 +28,7 @@ function addSmoothScrollListeners() {
 }
 
 /**
- * 
+ * When the links with #id's are clicked it will scroll to the element connected to the specific link.
  * @param {MouseEvent} event 
  */
 function scrollToElement(event) {
@@ -42,7 +42,7 @@ function scrollToElement(event) {
 
 function addExperienceHoverListeners() {
 
-    const circles = document.querySelectorAll('#experience > *')
+    const circles = document.querySelectorAll('#education > *')
 
     for (const circle of circles) {
         circle.addEventListener('mouseenter', showHiddenContent)
