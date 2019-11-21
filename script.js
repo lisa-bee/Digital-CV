@@ -28,7 +28,7 @@ function addSmoothScrollListeners() {
 }
 
 /**
- * When the links with #id's are clicked it will scroll to the element connected to the specific link.
+ * When the links with #id's are clicked it will scroll to the related element.
  * @param {MouseEvent} event 
  */
 function scrollToElement(event) {
@@ -39,10 +39,12 @@ function scrollToElement(event) {
 }
 
 
-
+/**
+ * 
+ */
 function addExperienceHoverListeners() {
 
-    const circles = document.querySelectorAll('#education > *')
+    const circles = document.querySelectorAll('#experience > *')
 
     for (const circle of circles) {
         circle.addEventListener('mouseenter', showHiddenContent)
@@ -51,7 +53,7 @@ function addExperienceHoverListeners() {
 }
 
 /**
- * 
+ * On hover; hidden content and colors are revealed. 
  * @param {MouseEvent} event 
  */
 function showHiddenContent(event) {
@@ -68,6 +70,11 @@ function showHiddenContent(event) {
     circle.style.color = 'black'
 }
 
+/**
+ * When not hovering; the hidden content goes back to be hidden.
+ * The divs "original" content is shown again.
+ * @param {MouseEvent} event 
+ */
 function hideHiddenContent(event) {
     
     const circle = event.target 
