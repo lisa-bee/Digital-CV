@@ -20,7 +20,7 @@ Med 'click' (JS) på varje div triggas en smooth scroll funktion (JS) som scroll
 -listar mina utbildningar, diverse cert och spåkfärdigheter.
 
 #### "Contact"
--längst ner på sidan finns en footer där länk till min mail, instagram, linkedin och telefonnummer finns. 
+-längst ner på sidan finns en footer där länk till min mail, instagram, linkedin och telefonnummer finns. Har även här lagt in credits till iconerna jag tagit från www.flaticon.com. 
 
 
 
