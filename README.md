@@ -21,7 +21,7 @@ Med 'click' (JS) på varje div triggas en smooth scroll funktion (JS) som scroll
 
 
 
-Längst ner på sidan finns en footer där länk till min mail, instagram och linkedIn finns. 
+Längst ner på sidan finns en footer där länk till min mail, instagram och linkedin finns. 
 
 
 
