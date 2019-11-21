@@ -13,5 +13,14 @@
     justify-content: center;
     height: 100%;
 }
+
+.grid-aboutme {
+    flex-direction: column;
 }
+
+.picture-of-me {
+    margin-bottom: 2rem;
+}
+}
+
 
