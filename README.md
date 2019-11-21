@@ -7,17 +7,19 @@ Min sida jag skapat har en interaktiv förstasida bestående av en hälsningsfra
 
 Med 'click' (JS) på varje div triggas en smooth scroll funktion (JS) som scrollar dig ner till respektive kategoris element, längre ner på sidan. Kategorierna är följande: "About me", "FrontEnd", "Experience" och "Other".
 
-### "About me" 
+#### "About me" 
 -listar 10 rader av fakta om mig.
 
-### "FrontEnd" 
+#### "FrontEnd" 
 -visar att jag håller på med just frontend och länkar även till min GitHub. Jag valde att länka till hela min GitHub profil istället för att länka till specifika repon. Detta kan vara något att ändra i framtiden om man känner att man har lite mer proffsiga repon att visa upp i CV:t.
 
-### "Experience" 
+#### "Experience" 
 -är också interaktiv del av min sida. Då man hovrar över de olika divarna med mina jobb-erfarenheter triggas ett 'mouseEvent' (JS) och ändrar egenskaperna för divarna. Diven eller "cirkeln" ändrar bakgrundsfärg och textfärg samt att jobbtitel och datum visas istället för namnet på företaget. 
 
-### "Other"
+#### "Other"
 -listar mina utbildningar, diverse cert och spåkfärdigheter.
+
+
 
 Längst ner på sidan finns en footer där länk till min mail, instagram och linkedIn finns. 
 
