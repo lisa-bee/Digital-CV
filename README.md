@@ -3,9 +3,9 @@
 
 I denna laboration var uppgiften att skapa ett digitalt, interaktivt CV. 
 
-Min sida jag skapat har en interaktiv förstasida bestående av en hälsningsfras som 'onload' triggar en funktion som skriver ut frasen (JS) och fyra olika kategorier i var sin div. Vid :hover (css) ändras divarnas egenskaper.
+Min sida jag skapat har en interaktiv förstasida bestående av en hälsningsfras som 'onload' triggar en funktion som skriver ut frasen (JS) och fem olika kategorier i var sin div. Vid :hover (css) ändras divarnas egenskaper.
 
-Med 'click' (JS) på varje div triggas en smooth scroll funktion (JS) som scrollar dig ner till respektive kategoris element, längre ner på sidan. Kategorierna är följande: "About me", "FrontEnd", "Experience" och "Other".
+Med 'click' (JS) på varje div triggas en smooth scroll funktion (JS) som scrollar dig ner till respektive kategoris element, längre ner på sidan. Kategorierna är följande: "About me", "FrontEnd", "Experience", "Other" och "Contact".
 
 #### "About me" 
 -listar 10 rader av fakta om mig.
@@ -19,9 +19,8 @@ Med 'click' (JS) på varje div triggas en smooth scroll funktion (JS) som scroll
 #### "Other"
 -listar mina utbildningar, diverse cert och spåkfärdigheter.
 
-
-
-Längst ner på sidan finns en footer där länk till min mail, instagram och linkedin finns. 
+#### "Contact"
+-längst ner på sidan finns en footer där länk till min mail, instagram, linkedin och telefonnummer finns. 
 
 
 
