@@ -1,5 +1,8 @@
 window.addEventListener('load', loadPage)
 
+/**
+ * The function "loadPage" calls the following functions on window load.
+ */
 function loadPage() {
     writeTitle()
     addSmoothScrollListeners()
