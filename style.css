@@ -85,6 +85,11 @@ span {
     line-height: 1.8;
     padding: 2rem;
     margin: 2rem;
+    
+}
+
+.aboutme-child1 ul {
+    padding: 0;
 }
 
 .picture-of-me {
@@ -108,7 +113,12 @@ span {
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    padding: 10rem;
+    padding: 10rem 0;
+    width: 80%;
+}
+
+.frontend-child1 h1 {
+    font-size: 1.5rem;
 }
 
 .github-icon {
@@ -124,7 +134,10 @@ span {
     display: flex;
     align-items: center;
     display: grid;
-    grid-template-columns: auto auto auto auto auto;
+    grid-template-columns: repeat(auto-fit, 15rem);
+    grid-gap: 1rem;
+    font-size: 0.7rem;
+    justify-content: center;
 }
 
 .experience-child1 {
@@ -135,8 +148,8 @@ span {
     background-color: black;
     border-radius: 50%;
     color: whitesmoke;
-    height: 15rem;
-    width: 15rem;
+    height: 12rem;
+    width: 12rem;
     margin: 1rem;
     line-height: 0;
 }

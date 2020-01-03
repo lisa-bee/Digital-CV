@@ -9,15 +9,17 @@ function loadPage() {
     addExperienceHoverListeners()
 }
 
-let index = 0;
-const text = 'Hello, I´m Lisa';
-const speed = 250;
+    let index = 0;
+    const text = 'Hello, I´m Lisa';
+    const speed = 250;
+
 
 /**
  * This function writes out the title 
  * "Hello I'm Lisa" on window load.
  */
 function writeTitle() {
+        
     if (index < text.length) {
         document.getElementById('title').innerHTML += text.charAt(index);
         index++;
