@@ -1,4 +1,4 @@
-#Digital CV
+# Digital CV
 
 
 ##### Link to GitHub repo: https://github.com/lisa-bee/Digital-CV
