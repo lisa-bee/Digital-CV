@@ -132,7 +132,7 @@ h1 {
 
 /*EXPERIENCE PART*/
 
-#big {
+.big {
     height: 100vh;
     display: flex;
     align-items: center;
