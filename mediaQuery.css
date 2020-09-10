@@ -4,15 +4,32 @@
     #big {
         height: 100%;
     }
+ 
+    .grid-main {
+        height: 100%;
+    }
+    .grid-aboutme {
+        height: 100%;
+    }
+    .grid-main-child2 {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .grid-frontend{
+        height: 100%;
+    }
+    .grid-other {
+        height: 100%;
+    }
+    .frontend-child1 {
+        height: 20%;
+    }
 }
 
 @media (max-width: 800px) {
 
-.grid-main-child2 {
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
 
 .grid-experience {
     grid-template: none;

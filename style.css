@@ -14,6 +14,10 @@ span {
     font-style: italic;
 }
 
+h1 {
+    font-size: 50pt;
+}
+
 /* GRID CONTAINER*/
 
 .grid-container {
@@ -23,13 +27,14 @@ span {
 /* FRONT/FIRST PAGE*/
 
 .grid-main {
-    background-image: url(./Pictures/jeremy-bishop-QHZn3-0bbEM-unsplash.jpg);
+    background-image: url(./Pictures/alysa-bajenaru-P103bmFilDA-unsplash.jpg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
     opacity: 0.8;
     display: grid;
-    min-height: 60rem;
+    height: 100vh;
+    text-align: center;
 }
 
 /* Style for first page objects*/
@@ -54,12 +59,12 @@ span {
     background-color: black;
     color: white;
     border: none;
-    height: 6rem;
-    width: 6rem;
+    height: 10rem;
+    width: 10rem;
     border-radius: 50%;
     margin: 1.5rem;
     padding: 5px;
-    font-size: 14px;
+    font-size: 14pt;
 }
 
 .circles:hover {
@@ -71,7 +76,7 @@ span {
 
 .grid-aboutme {
     background-color: whitesmoke;
-    min-height: 55rem;
+    height: 100vh;
     opacity: 0.8;
     font-size: large;
     display: flex;
@@ -100,7 +105,7 @@ span {
 
 .grid-frontend {
     background-color: black;
-    min-height: 55rem;
+    height: 100vh;
     opacity: 0.8;
     display: flex;
     justify-content: center;
@@ -131,6 +136,7 @@ span {
     height: 100vh;
     display: flex;
     align-items: center;
+    justify-content: center;
     background-color: whitesmoke;
 }
 .rows {
@@ -177,7 +183,7 @@ span {
 
 .grid-other {
     background-color: black;
-    min-height: 50rem;
+    height: 100vh;
     opacity: 0.8;
     display: flex;
     justify-content: center;
