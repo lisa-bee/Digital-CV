@@ -1,5 +1,11 @@
 /*MOBILE SIZE*/
 
+@media (max-width: 1120px) {
+    #big {
+        height: 100%;
+    }
+}
+
 @media (max-width: 800px) {
 
 .grid-main-child2 {

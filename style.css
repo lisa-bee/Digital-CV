@@ -127,18 +127,26 @@ span {
 
 /*EXPERIENCE PART*/
 
+#big {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    background-color: whitesmoke;
+}
+.rows {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
 
 .grid-experience {
     background-color: whitesmoke;
-    min-height: 55rem;
     opacity: 0.8;
+    font-size: 0.7rem;
     display: flex;
     align-items: center;
-    display: grid;
-    grid-template-columns: repeat(auto-fit, 15rem);
-    grid-gap: 1rem;
-    font-size: 0.7rem;
     justify-content: center;
+    flex-wrap: wrap;
 }
 
 .experience-child1 {
