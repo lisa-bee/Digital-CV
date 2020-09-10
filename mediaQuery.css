@@ -1,7 +1,7 @@
 /*MOBILE SIZE*/
 
 @media (max-width: 1120px) {
-    #big {
+    .big {
         height: 100%;
     }
  
@@ -25,6 +25,18 @@
     }
     .frontend-child1 {
         height: 20%;
+    }
+
+    .frontend-child1 h1 {
+        font-size: 20pt;
+    }
+
+    .github-icon {
+        height: 5rem;
+    }
+    
+    .grid-frontend p {
+     font-size: 14pt;
     }
 }
 
@@ -56,6 +68,11 @@
 .frontend-child1 {
     margin: 3rem 0rem;
 }
+
+.frontend-child1 h1 {
+    font-size: 16pt;
 }
+}
+
 
 
